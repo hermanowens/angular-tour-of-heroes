@@ -1,6 +1,5 @@
 import { TestBed, async } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
-import { By } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
@@ -39,14 +38,5 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('h2').textContent).toContain('Windstorm');
-  }));
-  it(`should render the hero's id in first div.`, async(() => {
-    /* TODO: Fix the test for input value, currently coming back as empty string. */
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    /*const input = fixture.debugElement.query(By.css('input')).nativeElement;*/
-    expect(compiled.querySelectorAll('div')[0].textContent).toBe('id: 1');
-    /*expect(input.value).toContain('Windstorm');*/
   }));
 });
