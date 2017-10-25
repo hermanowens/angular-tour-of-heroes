@@ -9,7 +9,9 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
-      imports: [ FormsModule ]
+      imports: [
+        FormsModule
+      ]
     }).compileComponents();
   }));
   it('should create the app.', async(() => {
@@ -25,7 +27,7 @@ describe('AppComponent', () => {
   it(`should have 'Windstorm' set as the name for the hero with an id of 1.`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.hero).toEqual({ id: 1, name: 'Windstorm'});
+    expect(app.hero).toEqual({ id: 1, name: 'Windstorm' });
   }));
   it(`should render the title in a h1 tag.`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
