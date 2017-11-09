@@ -1,0 +1,11 @@
+<div class="credits-container content">
+  <h2>Credits</h2>
+
+  <p>Image source: <a href="https://www.behance.net/gallery/9684051/Superheroes-PastPresent-Vol-1" target="_blank">Khoa Ho</a></p>
+
+  <div class="credits-grid">
+    <img *ngFor="let hero of heroes" src="../../assets/img/{{hero.name|lowercase|dash}}.jpg" title="{{hero.name}}" />
+  </div>
+
+  <p class="angular">Tutorial courtesy of <br/> <a href="https://angular.io" target="_blank"><img src="../../assets/img/angular.png" title="Angular Logo" /></a></p>
+</div>

@@ -1,0 +1,53 @@
+@import "../../assets/scss/variables";
+
+.dashboard-container {
+  margin: 0;
+
+  .dashboard-grid {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  h2 {
+    color: $red;
+    text-align: center;
+  }
+
+  .module {
+    background: $white;
+    border-radius: 1.5rem;
+    border: .1rem solid $white;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    height: 7rem;
+    justify-content: flex-end;
+    margin: 0 0 2rem;
+    text-decoration: none;
+    width: 7rem;
+
+    p {
+      color: $red;
+      margin: auto;
+      text-align: center;
+    }
+
+    @each $hero in $heroes {
+      &.#{$hero} {
+        &:hover {
+          /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+          background: $cod-gray url('../../assets/img/#{$hero}.jpg') bottom center no-repeat;
+          background-size: contain;
+
+          p {
+            opacity: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+

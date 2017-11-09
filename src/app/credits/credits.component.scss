@@ -1,0 +1,43 @@
+@import "../../assets/scss/variables";
+
+.credits-container {
+  margin: 0;
+
+  .credits-grid {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    img {
+      height: 150px;
+    }
+  }
+
+  h2 {
+    color: $red;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $red;
+    }
+  }
+
+  .angular {
+    margin: 3.5rem auto;
+
+    img {
+      height: 4.6rem;
+    }
+  }
+}
+
+

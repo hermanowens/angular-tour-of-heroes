@@ -1,0 +1,41 @@
+@import '../assets/scss/variables';
+
+header {
+  overflow: hidden;
+  padding: 1rem;
+}
+
+nav {
+  background-color: $white;
+  box-shadow: 0 0 .75rem .25rem $white;
+  color: $cod-gray;
+  position: relative;
+  padding: .5rem;
+  z-index: 1;
+
+  a {
+    border-radius: .25rem;
+    color: $white;
+    display: inline-flex;
+    margin-right: .5rem;
+    padding: .5rem;
+    text-decoration: none;
+
+    &:visited, &:link {
+      background-color: $cod-gray;
+    }
+
+    &:hover, &.active {
+      background-color: $maroon;
+    }
+
+    &.active:hover {
+      background-color: $red;
+    }
+  }
+}
+
+.page {
+  flex: 1;
+  overflow: auto;
+}

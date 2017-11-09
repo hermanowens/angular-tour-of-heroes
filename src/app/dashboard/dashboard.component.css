@@ -1,0 +1,124 @@
+.dashboard-container {
+  margin: 0; }
+  .dashboard-container .dashboard-grid {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+  .dashboard-container h2 {
+    color: #ff0000;
+    text-align: center; }
+  .dashboard-container .module {
+    background: #ffffff;
+    border-radius: 1.5rem;
+    border: 0.1rem solid #ffffff;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    height: 7rem;
+    justify-content: flex-end;
+    margin: 0 0 2rem;
+    text-decoration: none;
+    width: 7rem; }
+    .dashboard-container .module p {
+      color: #ff0000;
+      margin: auto;
+      text-align: center; }
+    .dashboard-container .module.aquaman:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/aquaman.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.aquaman:hover p {
+        opacity: 0; }
+    .dashboard-container .module.batman:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/batman.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.batman:hover p {
+        opacity: 0; }
+    .dashboard-container .module.captain-america:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/captain-america.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.captain-america:hover p {
+        opacity: 0; }
+    .dashboard-container .module.deathstroke:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/deathstroke.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.deathstroke:hover p {
+        opacity: 0; }
+    .dashboard-container .module.flash:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/flash.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.flash:hover p {
+        opacity: 0; }
+    .dashboard-container .module.gambit:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/gambit.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.gambit:hover p {
+        opacity: 0; }
+    .dashboard-container .module.green-lantern:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/green-lantern.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.green-lantern:hover p {
+        opacity: 0; }
+    .dashboard-container .module.hulk:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/hulk.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.hulk:hover p {
+        opacity: 0; }
+    .dashboard-container .module.iron-man:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/iron-man.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.iron-man:hover p {
+        opacity: 0; }
+    .dashboard-container .module.magneto:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/magneto.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.magneto:hover p {
+        opacity: 0; }
+    .dashboard-container .module.professor-x:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/professor-x.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.professor-x:hover p {
+        opacity: 0; }
+    .dashboard-container .module.spider-man:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/spider-man.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.spider-man:hover p {
+        opacity: 0; }
+    .dashboard-container .module.superman:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/superman.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.superman:hover p {
+        opacity: 0; }
+    .dashboard-container .module.thor:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/thor.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.thor:hover p {
+        opacity: 0; }
+    .dashboard-container .module.wolverine:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/wolverine.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.wolverine:hover p {
+        opacity: 0; }
+    .dashboard-container .module.wonder-woman:hover {
+      /* Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho */
+      background: #0A0A0A url("../../assets/img/wonder-woman.jpg") bottom center no-repeat;
+      background-size: contain; }
+      .dashboard-container .module.wonder-woman:hover p {
+        opacity: 0; }
+
+/*# sourceMappingURL=dashboard.component.css.map */

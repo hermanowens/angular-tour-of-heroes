@@ -1,0 +1,9 @@
+<div class="dashboard-container content">
+  <h2>Top Heroes</h2>
+
+  <div class="dashboard-grid">
+    <a *ngFor="let hero of heroes" [routerLink]="['/hero', hero.id]" class="module hero {{hero.name|lowercase|dash}}">
+      <p>{{hero.name}}</p>
+    </a>
+  </div>
+</div>

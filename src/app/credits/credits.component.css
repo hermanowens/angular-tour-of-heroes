@@ -1,0 +1,24 @@
+.credits-container {
+  margin: 0; }
+  .credits-container .credits-grid {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+    .credits-container .credits-grid img {
+      height: 150px; }
+  .credits-container h2 {
+    color: #ff0000;
+    text-align: center; }
+  .credits-container p {
+    text-align: center; }
+  .credits-container a {
+    color: #ffffff; }
+    .credits-container a:hover {
+      color: #ff0000; }
+  .credits-container .angular {
+    margin: 3.5rem auto; }
+    .credits-container .angular img {
+      height: 4.6rem; }
+
+/*# sourceMappingURL=credits.component.css.map */

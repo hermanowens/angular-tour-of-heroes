@@ -1,0 +1,19 @@
+<div class="heroes-container content">
+  <h2>My Heroes</h2>
+  <div class="hero-grid">
+    <ul class="heroes">
+      <li *ngFor="let hero of heroes"
+          [class.selected]="hero === selectedHero"
+          (click)="onSelect(hero)">
+        <span class="badge">{{hero.id}}</span>
+        <span class="text">{{hero.name}}</span>
+      </li>
+    </ul>
+    <div *ngIf="selectedHero" class="selected-hero">
+      <img src="../../assets/img/{{selectedHero.name|lowercase|dash}}.jpg" alt="{{selectedHero.name}} image"
+           class="hero-image">
+      <h3>{{selectedHero.name | uppercase}} is my hero</h3>
+      <button (click)="gotoDetail()">View Details</button>
+    </div>
+  </div>
+</div>

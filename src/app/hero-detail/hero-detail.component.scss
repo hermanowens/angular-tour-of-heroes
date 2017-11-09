@@ -1,0 +1,43 @@
+@import '../../assets/scss/_variables';
+
+.hero-detail-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  .module {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .field-input {
+    color: $white;
+    display: flex;
+    flex-flow: row wrap;
+
+    label {
+      font-weight: bold;
+      margin: .5rem 0;
+      width: 4rem;
+    }
+
+    input {
+      border: none;
+      border-radius: .25rem;
+      font-size: 1rem;
+      padding: .4rem;
+    }
+  }
+
+  button {
+    align-self: flex-end;
+  }
+
+  @each $hero in $heroes {
+    &.#{$hero} {
+      // Image source: https://imgur.com/gallery/u4PNUNH by redragon6466. ~ Khoa Ho
+      background: $cod-gray url('../../assets/img/#{$hero}.jpg') bottom left no-repeat;
+      background-size: auto;
+    }
+  }
+}

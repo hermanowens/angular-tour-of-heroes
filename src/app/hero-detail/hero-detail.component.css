@@ -1,0 +1,72 @@
+.hero-detail-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  .hero-detail-container .module {
+    display: flex;
+    flex-direction: column; }
+  .hero-detail-container .field-input {
+    color: #ffffff;
+    display: flex;
+    flex-flow: row wrap; }
+    .hero-detail-container .field-input label {
+      font-weight: bold;
+      margin: .5rem 0;
+      width: 4rem; }
+    .hero-detail-container .field-input input {
+      border: none;
+      border-radius: .25rem;
+      font-size: 1rem;
+      padding: .4rem; }
+  .hero-detail-container button {
+    align-self: flex-end; }
+  .hero-detail-container.aquaman {
+    background: #0A0A0A url("../../assets/img/aquaman.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.batman {
+    background: #0A0A0A url("../../assets/img/batman.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.captain-america {
+    background: #0A0A0A url("../../assets/img/captain-america.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.deathstroke {
+    background: #0A0A0A url("../../assets/img/deathstroke.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.flash {
+    background: #0A0A0A url("../../assets/img/flash.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.gambit {
+    background: #0A0A0A url("../../assets/img/gambit.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.green-lantern {
+    background: #0A0A0A url("../../assets/img/green-lantern.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.hulk {
+    background: #0A0A0A url("../../assets/img/hulk.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.iron-man {
+    background: #0A0A0A url("../../assets/img/iron-man.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.magneto {
+    background: #0A0A0A url("../../assets/img/magneto.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.professor-x {
+    background: #0A0A0A url("../../assets/img/professor-x.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.spider-man {
+    background: #0A0A0A url("../../assets/img/spider-man.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.superman {
+    background: #0A0A0A url("../../assets/img/superman.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.thor {
+    background: #0A0A0A url("../../assets/img/thor.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.wolverine {
+    background: #0A0A0A url("../../assets/img/wolverine.jpg") bottom left no-repeat;
+    background-size: auto; }
+  .hero-detail-container.wonder-woman {
+    background: #0A0A0A url("../../assets/img/wonder-woman.jpg") bottom left no-repeat;
+    background-size: auto; }
+
+/*# sourceMappingURL=hero-detail.component.css.map */
